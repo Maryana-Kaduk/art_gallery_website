@@ -1,0 +1,432 @@
+@media(max-width: 1200px) {
+    .container {
+        max-width: 920px;
+    }
+
+    section.info h1 {
+        font-size: 87px;
+    }
+
+    .photo_pictures {
+        max-width: 535px;
+    }
+}
+
+@media(max-width: 950px) {
+    main.main {
+        margin-bottom: 120px;
+    }
+
+    .container {
+        max-width: 689px;
+    }
+    
+    .text {
+        max-width: 339px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    header.header {
+        min-height: 700px;
+        background-image: url('../assets/tablet/image-hero.jpg');
+        background-position: left center;
+        margin-bottom: 120px;
+    }
+    
+    .black_bg {
+        min-height: 700px;
+        display: none;
+    }
+    
+    header.header section.info {
+        padding-top: 145px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: end;
+        gap: 48px;
+    }
+    
+    section.info h1 {
+        font-family: "Big Shoulders Display", sans-serif;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 65px;
+        max-width: 339px;
+        color: var(--black);
+        mix-blend-mode: normal;
+    }
+    
+    section.info article.description {
+        gap: 48px;
+    }
+
+    br {
+        display: block;
+    }
+
+    .day {
+        margin-bottom: 11px;
+    }
+    
+    .gallery {
+        max-width: 223px;
+        gap: 24px;
+    }
+    
+    h2 {
+        font-size: 50px;
+        line-height: 45px;
+        max-width: 223px;
+    }
+    
+    .photo_pictures {
+        max-width: 398px;
+        background-image: url('../assets/tablet/image-grid-1.jpg');
+    }
+    
+    section.photos {
+        /* display: grid; */
+        gap: 11px;
+        grid-template-columns: 1fr 280px;
+        /* grid-template-rows: 313px 377px; */
+        /* grid-template-columns: 635px 445px;
+        grid-template-rows: 313px 377px; */
+    }
+    
+    .photo_branch {
+        /* max-width: 398px; */
+        background-image: url('../assets/tablet/image-grid-2.jpg');
+    }
+    
+    .wrapper {
+        gap: 11px;
+    }
+    
+    .photo_people {
+        /* max-width: 280px; */
+        background-image: url('../assets/tablet/image-grid-3.jpg');
+    }
+
+    .inspired {
+        padding: 85px 28px;
+        gap: 24px;
+    }
+    
+    main.main_location .location_info {
+        padding: 88px 0 80px;
+    }
+    
+    .location_info h1 {
+        line-height: 55px;
+        font-size: 50px;
+        max-width: 223px;
+    }
+    
+    .location_info .address_location {
+        gap: 20px;
+        max-width: 398px;
+    }
+    
+    .location_info p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .address_location .street {
+        gap: 20px;
+    }
+    
+    .address_location .street h3 {
+        font-size: 32px;
+    }
+
+    footer.footer {
+        padding: 56px 0;
+    }
+    
+    .footer_content .footer_main-content {
+        gap: 64px;
+    }
+    
+    .footer_content .logo {
+        width: 110px;
+        height: 40px;
+    }
+    
+    .footer_content .footer_text {
+        max-width: 281px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .footer_content .social {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 725px) {
+    .container {
+        max-width: 550px;
+    }
+
+    header.header {
+        min-height:630px;
+        background-image: url('../assets/tablet/image-hero@3x.jpg');
+        /* background-size: contain; */
+        background-position: top center;
+        margin-bottom: 120px;
+    }
+
+    header.header section.info {
+        padding-top: 345px;
+        align-items: center;
+        text-align: center;
+    }
+
+    section.info article.description {
+        align-items: center;
+    }
+
+    .footer_content .footer_main-content {
+        gap: 48px;
+    }
+}
+
+@media(max-width: 600px) {
+    .container {
+        max-width: 420px;
+    }
+
+    .header_location .container {
+        max-width: 100%;
+    }
+
+    .text {
+        max-width: 420px;
+    }
+
+    section.photos {
+        gap: 16px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "branch"
+            "people"
+            "inspired"
+        ;
+    }
+
+    .day {
+        flex-direction: column-reverse;
+        gap: 25px;
+        margin-bottom: 32px;
+    }
+
+    h2 {
+        max-width: 420px;
+    }
+
+    .gallery {
+        max-width: 420px;
+    }
+
+    .photo_pictures {
+        max-width: 420px;
+    }
+
+    .inspired {
+        padding: 58px 38px;
+        gap: 24px;
+    }
+
+    .photo_branch {
+        height: 490px;
+        background-position: bottom center;
+    }
+
+    .photo_people {
+        height: 265px;
+    }
+
+    main.main_location .location_info {
+        justify-content: start;
+        flex-direction: column;
+        gap: 48px;
+    }
+    
+    .location_info h1 {
+        max-width: 420px;
+    }
+    
+    .location_info .address_location {
+        max-width: 420px;
+    }
+
+    footer.footer .footer_content {
+        justify-content: start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 38px;
+    }
+    
+    .footer_content .footer_main-content {
+        flex-direction: column;
+        gap: 38px;
+    }
+
+    .footer_content .footer_text {
+        max-width: 420px;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .container {
+        max-width: 343px;
+    }
+
+    .header_location .container {
+        max-width: 100%;
+    }
+
+    .text {
+        max-width: 343px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    header.header {
+        min-height:630px;
+        background-image: url('../assets/mobile/image-hero.jpg');
+        background-position: center top;
+        margin-bottom: 120px;
+    }
+    
+    header.header section.info {
+        padding-top: 300px;
+        gap: 32px;
+    }
+
+    section.info article.description {
+        gap: 32px;
+    }
+
+    section.info h1 {
+        font-size: 65px;
+        line-height: 55px;
+        max-width: 343px;
+    }
+    main.main {
+        margin-bottom: 120px;
+    }
+    
+    .day {
+        flex-direction: column-reverse;
+        gap: 25px;
+        margin-bottom: 32px;
+    }
+    
+    .gallery {
+        max-width: 343px;
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+    h2 {
+        font-size: 50px;
+        line-height: 45px;
+        max-width: 343px;
+    }
+
+    .photo_pictures {
+        max-width: 343px;
+        width: 100%;
+        height: 320px;
+        background-image: url('../assets/mobile/image-grid-1.jpg');
+    }
+    
+    section.photos {
+        gap: 16px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "branch"
+            "people"
+            "inspired"
+        ;
+    }
+    
+    .photo_branch {
+        height: 480px;
+        background-image: url('../assets/mobile/image-grid-2.jpg');
+    }
+
+    .photo_people {
+        height: 200px;
+        background-image: url('../assets/mobile/image-grid-3.jpg');
+    }
+
+    .inspired {
+        height: 293px;
+        padding: 48px 24px;
+        gap: 24px;
+    }
+    
+    main.main_location .location_info {
+        padding: 48px 0 56px;
+        justify-content: start;
+        flex-direction: column;
+        gap: 48px;
+    }
+    
+    .location_info h1 {
+        line-height: 50px;
+        font-size: 45px;
+        max-width: 343px;
+    }
+    
+    .location_info .address_location {
+        gap: 20px;
+        max-width: 343px;
+    }
+    
+    .location_info p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .address_location .street {
+        gap: 20px;
+    }
+    
+    .address_location .street h3 {
+        font-size: 32px;
+    }
+
+    footer.footer {
+        padding: 48px 0;
+    }
+    
+    /* footer.footer .footer_content {
+        justify-content: start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 38px;
+    }
+    
+    .footer_content .footer_main-content {
+        flex-direction: column;
+        gap: 38px;
+    } */
+    
+    .footer_content .logo {
+        width: 110px;
+        height: 40px;
+    }
+    
+    .footer_content .footer_text {
+        max-width: 343px;
+    }
+    
+}
